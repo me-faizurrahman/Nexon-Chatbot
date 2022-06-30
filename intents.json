@@ -1,0 +1,34 @@
+{"intents" :  [
+  {"tag" : "greetings",
+    "patterns": ["Hey", "Salut","Hi","Hello","What’s up?"],
+    "responses": ["Hello, How are you?"]
+  },
+  {"tag" : "",
+    "patterns": ["fine", "good", "nice"],
+    "responses": ["Glad to hear that."]
+  },
+    {"tag" : "bye",
+    "patterns": ["See ya", "Bye"],
+    "responses": ["It was nice talking to you."]
+  },
+    {"tag" : "created",
+    "patterns": ["created", "developed","made"],
+    "responses": ["I was created by Faizur Rahman on 20th of June 2022."]
+  },
+    {"tag" : "born",
+    "patterns": ["born","age"],
+    "responses": ["I was born on 20th of June 2022"]
+  },
+    {"tag" : "robot",
+    "patterns": ["Are you a robot?"],
+    "responses": ["Yes I am a robot, but I am a good one."]
+  },
+    {"tag" : "love",
+    "patterns": ["Do you love me?"],
+    "responses": ["I love you"]
+  },
+    {"tag" : "marry",
+    "patterns": ["Will you marry me?"],
+    "responses": ["Are you single?"]
+  }
+]}
